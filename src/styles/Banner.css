@@ -1,0 +1,50 @@
+#Banner {
+    background-color: #2c2c2c;
+}
+
+#Banner .banner-container {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Banner .photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 2px #888888;
+}
+
+#Banner .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#Banner .info {
+    color: #ffff;
+    padding-left: 40px;
+}
+
+#Banner .info .name {
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+#Banner .info .title {
+    font-size: 1.3em;
+    padding-bottom: 4px;
+}
+
+#Banner .info button {
+    margin-top: 10px;
+    border: none;
+    padding: 4px 20px;
+    color: #ffff;
+    background-color: #1C1C1C;
+}
+
+#Banner .info button:hover {
+    background-color: #5e5e5e;
+}

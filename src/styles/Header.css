@@ -1,0 +1,36 @@
+#Header {
+    background-color: #1C1C1C;
+    color: #fff;
+}
+
+#Header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Header .links {
+    display: flex;
+}
+
+#Header .links a {
+    color: #fff;
+    font-size: 1.8em;
+    margin-right: 15px;
+}
+
+#Header .links a:hover {
+    color: rgb(255, 145, 0);
+}
+
+#Header .nav-item {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 4px;
+}
+
+#Header .nav-item:hover {
+    color: rgb(255, 145, 0);
+    cursor: pointer;
+}

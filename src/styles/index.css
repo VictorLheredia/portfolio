@@ -5,6 +5,23 @@ body {
   color: #505050;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+ 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(51, 51, 51);
+}
+
 #md {
   max-width: 998px;
 }

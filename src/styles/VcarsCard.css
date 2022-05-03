@@ -1,0 +1,61 @@
+#VcarsCard {
+    background-color: #ffff;
+    box-shadow: 0px 0px 8px #2c2c2c31;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#VcarsCard img {
+    height: 280px;
+    border-radius: 6px;
+    margin: 12px;
+
+}
+
+#VcarsCard .card-info {
+    padding-left: 15px;
+}
+
+#VcarsCard .card-title {
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+
+#VcarsCard .card-subtitle {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+#VcarsCard .info span {
+    font-weight: bold;
+}
+
+#VcarsCard .links {
+    display: flex;
+    padding-top: 20px;
+}
+
+#VcarsCard .links a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #1C1C1C;
+    color: #fff;
+    padding: 8px 0;
+    width: 165px;
+    margin-right: 16px;
+
+}
+
+#VcarsCard .links a:hover {
+    background-color: #5e5e5e;
+}
+
+#VcarsCard .links a .link-icon {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    padding-right: 8px;
+}

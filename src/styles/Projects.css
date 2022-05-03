@@ -1,0 +1,10 @@
+#Projects .projects-container {
+    padding-top: 30px;
+}
+
+#Projects .title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    padding-bottom: 60px;
+}

@@ -1,9 +1,10 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #f1f1f1;
+  background-color: #f8f8f8;
+  color: #2C2C2C;
 }
 
 #md {
-  max-width: 1080px;
+  max-width: 998px;
 }

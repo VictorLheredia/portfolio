@@ -1,0 +1,17 @@
+#VcarsLogin {
+    display: flex;
+}
+
+#VcarsLogin .project-img img {
+    width: 350px;
+}
+
+#VcarsLogin .logout-box {
+    display: flex;
+    align-items: center;
+}
+
+#VcarsLogin .logout-box img {
+    height: 45px;
+    margin-right: 10px;
+}

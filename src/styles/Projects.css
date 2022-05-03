@@ -11,3 +11,24 @@
     font-size: 2.6em;
     padding-bottom: 60px;
 }
+
+
+#Projects .project-box {
+    padding: 30px 40px;
+}
+
+#Projects .project-box span {
+    font-weight: bold;
+}
+
+#Projects .project-box .project-text {
+    padding: 10px 0;
+}
+
+#Projects .project-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}

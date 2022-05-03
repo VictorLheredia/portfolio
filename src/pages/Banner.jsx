@@ -1,7 +1,6 @@
 import "../styles/Banner.css";
 import { Container } from "react-bootstrap";
 import photo from "../img/photo.jpeg";
-import { Link } from "react-scroll";
 
 export default function Banner() {
   return (
@@ -15,18 +14,9 @@ export default function Banner() {
             <div className="name">Victor Luiz Heredia</div>
             <div className="title">Full Stack Developer</div>
             <div className="subtitle">
-              Desenvolvedor Fullstack jr com foco em React - estudante de
+              Desenvolvedor Fullstack jr com foco em React -  estudante de
               análise e desenvolvimento de sistemas.
-            </div>
-            <Link
-              className="nav-item"
-              to="Stacks"
-              spy={true}
-              smooth={false}
-              offset={-40}
-            >
-              <button>Saiba Mais</button>
-            </Link>
+            </div>      
           </div>
         </div>
       </Container>

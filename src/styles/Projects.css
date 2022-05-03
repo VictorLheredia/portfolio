@@ -1,12 +1,13 @@
 #Projects .projects-container {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 60px;
     border-bottom: solid 1px #dfdfdfbd;
 }
 
 #Projects .title {
+    font-family: 'Baloo Da 2', cursive;
     display: flex;
     justify-content: center;
-    font-size: 1.6em;
+    font-size: 2.6em;
     padding-bottom: 60px;
 }

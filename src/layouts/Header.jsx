@@ -45,7 +45,7 @@ export default function Header() {
               to="Stacks"
               spy={true}
               smooth={false}
-              offset={-100}
+              offset={-40}
             >
               Conhecimentos
             </Link>
@@ -55,7 +55,7 @@ export default function Header() {
               to="Projects"
               spy={true}
               smooth={false}
-              offset={-100}
+              offset={-40}
             >
               Projetos
             </Link>

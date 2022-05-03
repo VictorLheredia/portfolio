@@ -23,7 +23,7 @@ export default function Banner() {
               to="Stacks"
               spy={true}
               smooth={false}
-              offset={-100}
+              offset={-40}
             >
               <button>Saiba Mais</button>
             </Link>

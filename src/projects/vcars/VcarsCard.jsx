@@ -8,9 +8,9 @@ export default function VcarsCard() {
     <div id="VcarsCard">
       <img src={vcars} alt="vcars" />
       <div className="card-info">
-        <div className="card-title">Vcars Seminovos</div>
+        <div className="card-title">Vcars Seminovos <small>(em desenvolvimento)</small></div>
         <div className="card-subtitle">
-          Projeto fullstack de uma concessionária de veículos
+          Projeto fullstack concessionária de veículos
         </div>
         <div className="info">
           Front end em <span>React</span> - deploy <span>Vercel</span>

@@ -1,7 +1,28 @@
 #VcarsInfo {
-    height: 350px;
     background-color: #ffff;
     box-shadow: 0px 0px 8px hsla(0, 0%, 17%, 0.192);
-    border-radius: 6px;
-    margin-top: 40px;
+    margin-top: 30px;
+}
+
+#VcarsInfo .accordion-button:hover {
+    background-color: #e0e0e0;
+    
+}
+
+#VcarsInfo .accordion-button:not(.collapsed) {
+    background-color: #2C2C2C;
+    color: rgb(255, 145, 0);
+}
+
+#VcarsInfo .accordion-button::after {
+    background-image: url(../img/Vector2.svg);
+}
+
+#VcarsInfo .accordion-button:not(.collapsed)::after {
+    background-image: url(../img/Vector.svg);
+}
+
+
+#VcarsInfo .accordion-button:focus {
+    box-shadow: none;
 }

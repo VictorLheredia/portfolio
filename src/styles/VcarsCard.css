@@ -23,6 +23,11 @@
     padding-bottom: 15px;
 }
 
+#VcarsCard .card-title small {
+    font-size: 0.7em;
+    color: #1c1c1cb4;
+}
+
 #VcarsCard .card-subtitle {
     font-size: 1.2em;
     padding-bottom: 10px;
@@ -50,7 +55,7 @@
 }
 
 #VcarsCard .links a:hover {
-    background-color: #5e5e5e;
+    color: rgb(255, 145, 0);
 }
 
 #VcarsCard .links a .link-icon {

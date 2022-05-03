@@ -1,0 +1,33 @@
+#Footer .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C2C2C;
+    color: #F8F8F8;
+    height: 150px;
+    box-shadow: 0px 0px 6px #000000;
+}
+
+#Footer .icons {
+    display: flex;
+    justify-content: center;
+}
+
+#Footer .icons a{
+    font-size: 1.8em;
+    padding: 10px;
+    color: #ffff;
+}
+
+#Footer .icons a:hover {
+    color: rgb(255, 145, 0);
+}
+
+#Footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1c;
+    color: #F8F8F8;
+    height: 50px;
+}

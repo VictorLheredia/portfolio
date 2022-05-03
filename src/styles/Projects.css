@@ -1,5 +1,7 @@
 #Projects .projects-container {
     padding-top: 30px;
+    padding-bottom: 60px;
+    border-bottom: solid 1px #dfdfdfbd;
 }
 
 #Projects .title {

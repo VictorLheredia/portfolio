@@ -1,0 +1,32 @@
+#VcarsFiltro {
+    display: flex;
+}
+
+#VcarsFiltro .project-img img {
+    width: 230px;
+}
+
+#VcarsFiltro .project-box {
+    padding: 30px 40px;
+}
+
+#VcarsFiltro .project-box span {
+    font-weight: bold;
+}
+
+#VcarsFiltro .project-box .project-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+#VcarsFiltro .project-box .project-text {
+    padding: 10px 0;
+}
+
+#VcarsFiltro .project-box .search-brand-img img {
+    width: 100%;
+    padding: 20px;
+}

@@ -1,0 +1,71 @@
+#Stacks .stacks-container {
+    padding-top: 30px;
+}
+
+#Stacks .title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    padding-bottom: 60px;
+}
+
+#Stacks .stack-group {
+    background-color: #ffff;
+    box-shadow: 0px 0px 4px 0px #2c2c2c6e;
+    margin: 15px;
+}
+
+#Stacks .stack-icon {
+    display: flex;
+    padding: 18px;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#Stacks .stack-icon .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.9em;
+    border: solid 1px #c5c5c5;
+    padding: 16px;
+    border-radius: 50%;
+    color: #ffff;
+    background-color: #2C2C2C;
+    margin-top: -50px;
+}
+
+#Stacks .stack-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+}
+
+#Stacks .stack-list-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+
+#Stacks .stack-list {
+    width: 70%;
+}
+
+#Stacks .stack-list .stack {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#Stacks .stack-list img {
+    width: 26px;
+    height: 26px;
+}
+
+#Stacks .stack-list .text {
+    font-size: 1.3em;
+    padding-left: 14px;
+    text-transform: uppercase;
+}

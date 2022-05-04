@@ -1,6 +1,6 @@
-import "../../styles/VcarsPainel.css";
-import vcarsPainel from "../../img/projects/vcars-painel.png";
-import vcarsPainelTabela from "../../img/projects/vcars-painel-tabela.png";
+import "../styles/VcarsPainel.css";
+import vcarsPainel from "../img/projects/vcars-painel.png";
+import vcarsPainelTabela from "../img/projects/vcars-painel-tabela.png";
 
 export default function VcarsPainel() {
   return (

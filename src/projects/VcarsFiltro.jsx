@@ -1,6 +1,6 @@
-import "../../styles/VcarsFiltro.css";
-import vcarsSearch from "../../img/projects/vcars-search.png";
-import vcarsSarchBrand from "../../img/projects/vcars-search-brands.png";
+import "../styles/VcarsFiltro.css";
+import vcarsSearch from "../img/projects/vcars-search.png";
+import vcarsSarchBrand from "../img/projects/vcars-search-brands.png";
 
 export default function VcarsFiltro() {
   return (

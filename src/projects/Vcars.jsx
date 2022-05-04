@@ -1,4 +1,4 @@
-import "../../styles/Vcars.css";
+import "../styles/Vcars.css";
 import VcarsCard from "./VcarsCard";
 import VcarsInfo from "./VcarsInfo";
 

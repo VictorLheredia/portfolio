@@ -1,5 +1,5 @@
-import "../../styles/VcarsCard.css";
-import vcars from "../../img/projects/vcars.png";
+import "../styles/VcarsCard.css";
+import vcars from "../img/projects/vcars.png";
 import { BsGithub } from "react-icons/bs";
 import { FiLink } from "react-icons/fi";
 

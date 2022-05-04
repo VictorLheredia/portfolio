@@ -1,7 +1,7 @@
-import "../../styles/VcarsLogin.css";
+import "../styles/VcarsLogin.css";
 
-import vcarsLogin from "../../img/projects/vcars-login.png";
-import vcarsLoginLogout from "../../img/projects/vcars-login-logout.png";
+import vcarsLogin from "../img/projects/vcars-login.png";
+import vcarsLoginLogout from "../img/projects/vcars-login-logout.png";
 
 export default function VcarsLogin() {
   return (

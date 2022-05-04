@@ -1,4 +1,4 @@
-import "../../styles/VcarsInfo.css";
+import "../styles/VcarsInfo.css";
 import Accordion from "react-bootstrap/Accordion";
 
 import VcarsFiltro from "./VcarsFiltro";

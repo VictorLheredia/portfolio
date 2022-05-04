@@ -44,7 +44,7 @@ export default function VcarsCard() {
             <div className="link-text">Código Frontend</div>
           </a>
           <a
-            href="https://github.com/VictorLheredia/vcars_frontend"
+            href="https://github.com/VictorLheredia/vcars_backend"
             target="_blank"
             rel="noreferrer"
           >

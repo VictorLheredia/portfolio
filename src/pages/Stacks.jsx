@@ -17,6 +17,11 @@ import git from "../img/stacks/git.svg";
 import github from "../img/stacks/github.svg";
 import bootstrap from "../img/stacks/bootstrap.svg";
 import heroku from "../img/stacks/heroku.svg";
+import axios from "../img/stacks/axios.svg";
+import bcrypt from "../img/stacks/bcrypt.svg";
+import jwt from "../img/stacks/jwt.svg";
+import vercel from "../img/stacks/vercel.svg";
+import figma from "../img/stacks/figma.svg";
 
 export default function Stacks() {
   return (
@@ -52,6 +57,14 @@ export default function Stacks() {
                         <img src={css} alt="css" />
                         <div className="text">CSS</div>
                       </div>
+                      <div className="stack">
+                        <img src={bootstrap} alt="bootstrap" />
+                        <div className="text">Bootsrap</div>
+                      </div>
+                      <div className="stack">
+                        <img src={axios} alt="axios" />
+                        <div className="text">Axios</div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -82,6 +95,14 @@ export default function Stacks() {
                         <img src={s3} alt="s3" />
                         <div className="text">Amazon S3</div>
                       </div>
+                      <div className="stack">
+                        <img src={bcrypt} alt="bcrypt" />
+                        <div className="text">Bcrypt</div>
+                      </div>
+                      <div className="stack">
+                        <img src={jwt} alt="jwt" />
+                        <div className="text">JWT</div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -105,12 +126,16 @@ export default function Stacks() {
                         <div className="text">GitHub</div>
                       </div>
                       <div className="stack">
-                        <img src={bootstrap} alt="bootstrap" />
-                        <div className="text">Bootsrap</div>
-                      </div>
-                      <div className="stack">
                         <img src={heroku} alt="heroku" />
                         <div className="text">Heroku</div>
+                      </div>
+                      <div className="stack">
+                        <img src={vercel} alt="vercel" />
+                        <div className="text">Vercel</div>
+                      </div>
+                      <div className="stack">
+                        <img src={figma} alt="figma" />
+                        <div className="text">Figma</div>
                       </div>
                     </div>
                   </div>

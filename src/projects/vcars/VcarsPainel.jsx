@@ -9,7 +9,7 @@ export default function VcarsPainel() {
         <img src={vcarsPainel} alt="painel de controle" />
       </div>
       <div className="project-box">
-        <div className="project-title">Sistema de Login</div>
+        <div className="project-title">Painel de Controle</div>
         <div className="tabela-box">
           <div className="project-text">
             <u>Tabela de veículos:</u> consome <span>“GET”</span>

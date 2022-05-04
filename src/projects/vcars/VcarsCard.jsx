@@ -6,9 +6,17 @@ import { FiLink } from "react-icons/fi";
 export default function VcarsCard() {
   return (
     <div id="VcarsCard">
-      <img src={vcars} alt="vcars" />
+      <a
+        href="https://vcarsseminovos.vercel.app/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={vcars} alt="vcars" />
+      </a>
       <div className="card-info">
-        <div className="card-title">Vcars Seminovos <small>(em desenvolvimento)</small></div>
+        <div className="card-title">
+          Vcars Seminovos <small>(em desenvolvimento)</small>
+        </div>
         <div className="card-subtitle">
           Projeto fullstack concessionária de veículos
         </div>
@@ -33,10 +41,20 @@ export default function VcarsCard() {
             <div className="link-icon">
               <BsGithub />
             </div>
-            <div className="link-text">Código</div>
+            <div className="link-text">Código Frontend</div>
           </a>
           <a
-            href="https://vcars-iota.vercel.app/"
+            href="https://github.com/VictorLheredia/vcars_frontend"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="link-icon">
+              <BsGithub />
+            </div>
+            <div className="link-text">Código Backend</div>
+          </a>
+          <a
+            href="https://vcarsseminovos.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >

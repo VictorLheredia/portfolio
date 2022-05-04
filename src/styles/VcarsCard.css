@@ -5,17 +5,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 12px;
 }
 
 #VcarsCard img {
     height: 280px;
-    border-radius: 6px;
-    margin: 12px;
-
+    box-shadow: 0px 0px 6px #2c2c2c31;
 }
 
 #VcarsCard .card-info {
-    padding-left: 15px;
+    padding-left: 35px;
 }
 
 #VcarsCard .card-title {
@@ -48,9 +47,11 @@
     text-decoration: none;
     background-color: #1C1C1C;
     color: #fff;
+    font-size: 0.9em;
     padding: 8px 0;
-    width: 165px;
-    margin-right: 16px;
+    width: 150px;
+    margin-right: 6px;
+    border-radius: 3px;
 
 }
 
@@ -61,6 +62,6 @@
 #VcarsCard .links a .link-icon {
     display: flex;
     align-items: center;
-    font-size: 1.2em;
-    padding-right: 8px;
+    font-size: 1.1em;
+    padding-right: 6px;
 }

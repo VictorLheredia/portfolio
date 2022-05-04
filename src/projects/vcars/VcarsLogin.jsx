@@ -6,11 +6,11 @@ import vcarsLoginLogout from "../../img/projects/vcars-login-logout.png";
 export default function VcarsLogin() {
   return (
     <div id="VcarsLogin">
+      <div className="project-title">Sistema de Login</div>
       <div className="project-img">
         <img src={vcarsLogin} alt="login" />
       </div>
       <div className="project-box">
-        <div className="project-title">Sistema de Login</div>
         <div className="project-text">
           Proteção da rota do painel de controle, permite acesso somente para
           usuário <span>logado</span> e <span>autenticado</span>.

@@ -5,8 +5,8 @@
 }
 
 #VcarsInfo .accordion-button:hover {
-    background-color: #e0e0e0;
-    
+    background-color: #2C2C2C;
+    color: #ffff
 }
 
 #VcarsInfo .accordion-button:not(.collapsed) {

@@ -1,9 +1,16 @@
 #VcarsLogin {
     display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+#VcarsLogin .project-img {
+    display: flex;
+    justify-content: center;
 }
 
 #VcarsLogin .project-img img {
-    width: 350px;
+    width: 92%;
 }
 
 #VcarsLogin .logout-box {
@@ -12,6 +19,6 @@
 }
 
 #VcarsLogin .logout-box img {
-    height: 45px;
+    height: 40px;
     margin-right: 10px;
 }

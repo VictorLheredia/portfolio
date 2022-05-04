@@ -16,12 +16,18 @@ export default function Contact() {
             </div>
             <div className="text">victorluizheredia@gmail.com</div>
           </div>
-          <div className="contact-item">
-            <div className="icon">
-              <FaWhatsapp />
+          <a
+            href=" https://wa.me/5515998318850"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="contact-item">
+              <div className="icon">
+                <FaWhatsapp />
+              </div>
+              <div className="text">(15) 99831-8850</div>
             </div>
-            <div className="text">(15) 99831-8850</div>
-          </div>
+          </a>
           <img src={email} alt="email" />
         </div>
       </div>

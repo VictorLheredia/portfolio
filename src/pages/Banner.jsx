@@ -11,7 +11,7 @@ export default function Banner() {
             <img src={photo} alt="foto" />
           </div>
           <div className="info">
-            <div className="name">Victor Luiz Heredia</div>
+            <div className="name">Victor Luiz</div>
             <div className="title">Full Stack Developer</div>
             <div className="subtitle">
               Desenvolvedor Fullstack jr com foco em React -  estudante de

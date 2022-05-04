@@ -22,6 +22,16 @@
     border-radius: 6px;
 }
 
+#Contact .contact-body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#Contact .contact-body a:hover {
+    text-decoration: none;
+    color: #25D366;
+}
+
 #Contact .contact-item {
     display: flex;
     align-items: center;

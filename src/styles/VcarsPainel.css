@@ -1,0 +1,21 @@
+#VcarsPainel {
+    display: flex;
+}
+
+#VcarsPainel .project-img img {
+    width: 200px;
+}
+
+#VcarsPainel .project-box img {
+    margin-left: 10px;
+    margin-right: -10px;
+    width: 360px;
+}
+
+#VcarsPainel .tabela-box {
+    display: flex;
+}
+
+#VcarsPainel .project-box u {
+    font-size: 1.1em;
+}

@@ -73,11 +73,11 @@
 }
 
 #Stacks .stack-list img {
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
 }
 
 #Stacks .stack-list .text {
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding-left: 14px;
 }
